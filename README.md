@@ -8,13 +8,13 @@
 
 # 👥 Equipe
 
-| Nome         | RM    |
-| ------------ | ----- |
-| Integrante 1 | XXXXX |
-| Integrante 2 | XXXXX |
-| Integrante 3 | XXXXX |
-| Integrante 4 | XXXXX |
-| Integrante 5 | XXXXX |
+| Nome         | RM     |
+| ------------ | ------ |
+| Pedro Alves  | 569192 |
+| Integrante 2 | XXXXX  |
+| Integrante 3 | XXXXX  |
+| Integrante 4 | XXXXX  |
+| Integrante 5 | XXXXX  |
 
 ---
 
