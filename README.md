@@ -8,13 +8,13 @@
 
 # 👥 Equipe
 
-| Nome         | RM     |
-| ------------ | ------ |
-| Pedro Alves  | 569192 |
-| Integrante 2 | XXXXX  |
-| Integrante 3 | XXXXX  |
-| Integrante 4 | XXXXX  |
-| Integrante 5 | XXXXX  |
+| Nome               | RM     |
+| ------------------ | ------ |
+| Pedro Alves        | 569192 |
+| Anderson Marcolino | 574066 |
+| Felipe Luan        | 569565 |
+| Rafaella Pazzanese | 572296 |
+| Caio Cesar Maluza  | 572906 |
 
 ---
 
