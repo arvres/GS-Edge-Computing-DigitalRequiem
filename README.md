@@ -245,16 +245,51 @@ Integração entre tecnologias espaciais, IoT e Edge Computing.
 
 ---
 
-# 🚀 Evoluções Futuras
+🛰️ Simulação de Dados Orbitais
 
-Versões futuras poderão incluir:
+Para demonstrar a integração entre a plataforma Green-Trust e a Green-Trust Station, foram utilizados dados orbitais simulados dentro do código Arduino.
 
-* Sensor de fumaça (MQ-2);
-* Sensor de qualidade do ar;
-* Comunicação LoRa para áreas remotas;
-* Integração direta com APIs de satélites;
-* Inteligência Artificial para previsão de riscos;
-* Dashboard online em tempo real.
+float ndvi = 0.82;
+int biomassa = 124;
+
+Essas variáveis representam informações que, em um ambiente real, seriam obtidas através do processamento de imagens capturadas pelos satélites Sentinel-2 do programa Copernicus.
+
+---
+
+🌱 NDVI (Normalized Difference Vegetation Index)
+
+O NDVI é um índice amplamente utilizado em sensoriamento remoto para avaliar a saúde da vegetação.
+
+Seus valores normalmente variam entre -1 e 1.
+
+Interpretação
+Valor NDVI	Interpretação
+Menor que 0	Água, nuvens ou superfícies sem vegetação
+0,1 a 0,3	Vegetação escassa
+0,3 a 0,6	Vegetação moderada
+Acima de 0,6	Vegetação densa e saudável
+
+No projeto foi utilizado:
+
+ndvi = 0.82;
+
+Esse valor representa uma área com vegetação densa, saudável e com alta capacidade de absorção de carbono.
+
+---
+
+🌳 Biomassa Estimada
+
+A biomassa representa a quantidade de matéria vegetal presente em uma determinada área.
+
+Em sistemas reais de monitoramento ambiental, algoritmos matemáticos utilizam o NDVI juntamente com outros parâmetros para estimar a biomassa e o potencial de captura de carbono da vegetação.
+
+No projeto foi utilizado:
+
+biomassa = 124;
+
+O valor representa uma estimativa simplificada de:
+
+124 toneladas equivalentes de CO₂ armazenadas na área monitorada fictícia. 
 
 ---
 
