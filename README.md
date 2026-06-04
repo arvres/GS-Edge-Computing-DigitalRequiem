@@ -126,6 +126,36 @@ Essa abordagem reduz a latência e permite respostas imediatas diante de situaç
 
 ---
 
+# ▶️ Instruções de Execução
+
+## Requisitos
+
+- Arduino IDE
+- Bibliotecas:
+  - DHT Sensor Library
+  - LiquidCrystal_I2C
+  - Wire
+
+## Execução no Wokwi
+
+1. Abrir o projeto através do link disponibilizado.
+2. Iniciar a simulação.
+3. Alterar os valores do sensor DHT22 para simular diferentes condições ambientais.
+4. Observar:
+   - Mudança dos LEDs;
+   - Acionamento do buzzer;
+   - Atualização das informações no display LCD;
+   - Telemetria exibida no Monitor Serial.
+
+## Execução Física
+
+1. Montar o circuito conforme o diagrama apresentado.
+2. Compilar o código na Arduino IDE.
+3. Realizar upload para o Arduino Uno.
+4. Abrir o Monitor Serial para acompanhar os dados coletados.
+
+---
+
 # 🔍 Lógica de Funcionamento
 
 O sistema monitora continuamente a temperatura e a umidade do ambiente.
@@ -194,23 +224,46 @@ RISCO ALTO
 
 ---
 
-# 🎯 Justificativa Técnica das Escolhas
+# 🔌 Estrutura do Circuito
 
-## Arduino Uno
+A Green-Trust Station foi desenvolvida utilizando um Arduino Uno conectado a sensores e dispositivos de alerta.
 
-Escolhido devido ao baixo custo, ampla documentação e facilidade de integração com sensores IoT.
+## Ligações
 
-## DHT22
+### Sensor DHT22
 
-Permite monitoramento simultâneo de temperatura e umidade com boa precisão para aplicações educacionais.
+| Pino DHT22 | Arduino |
+|------------|----------|
+| VCC | 5V |
+| DATA | 7 |
+| GND | GND |
 
-## LCD I2C
+### LEDs
 
-Facilita a visualização das informações operacionais sem necessidade de dispositivos externos.
+| LED | Pino Arduino |
+|------|-------------|
+| Verde | 13 |
+| Amarelo | 12 |
+| Vermelho | 11 |
 
-## LEDs e Buzzer
+### Buzzer
 
-Possibilitam feedback visual e sonoro imediato para situações críticas.
+| Componente | Pino |
+|------------|------|
+| Buzzer     | 5    |
+
+### Display LCD I2C
+
+| LCD | Arduino |
+|------|---------|
+| VCC | 5V |
+| GND | GND |
+| SDA | A4 |
+| SCL | A5 |
+
+## Fluxo do Circuito
+
+DHT22 → Arduino → Processamento Local → LEDs/Buzzer/LCD
 
 ---
 
@@ -306,6 +359,17 @@ Caso condições favoráveis a incêndios sejam identificadas, um alerta é gera
 Dessa forma, o produtor pode agir rapidamente para proteger sua área, preservar seus créditos de carbono e evitar prejuízos financeiros.
 
 ---
+# 📊 Métricas de Impacto
+
+Benefícios esperados:
+
+- Monitoramento ambiental 24 horas por dia.
+- Resposta imediata a riscos ambientais.
+- Redução potencial de custos operacionais.
+- Integração entre dados espaciais e sensores locais.
+- Maior confiabilidade para auditorias ambientais.
+
+---
 
 # 🏆 Diferenciais da Solução
 
@@ -323,6 +387,11 @@ Ele integra em uma única solução:
 Essa integração torna a solução inovadora, escalável e alinhada aos desafios atuais da economia verde.
 
 ---
+# 🔗 Simulação Online
+
+Wokwi:
+
+[https://wokwi.com/projects/SEU_PROJETO](https://wokwi.com/projects/465935016828423169)
 
 # 📚 Tecnologias Utilizadas
 
