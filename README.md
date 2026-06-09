@@ -126,6 +126,14 @@ Essa abordagem reduz a latência e permite respostas imediatas diante de situaç
 
 ---
 
+## 🔌 Esquema de Montagem
+
+Abaixo está o diagrama de conexão do sistema de monitoramento desenvolvido com Arduino Uno, sensor DHT22, display LCD 16x2, LEDs indicadores e buzzer.
+
+<img align="center" width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/30d3bc3a-57bb-44b1-9550-92c039209415" />
+
+---
+
 # ▶️ Instruções de Execução
 
 ## Requisitos
