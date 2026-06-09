@@ -11,12 +11,6 @@ Monitorar condições ambientais locais e
 identificar riscos que possam comprometer
 áreas utilizadas para geração de créditos
 de carbono.
-
-Conceitos aplicados:
-- Edge Computing
-- IoT
-- Sensoriamento Ambiental
-- Monitoramento Climático
 =================================================
 */
 
